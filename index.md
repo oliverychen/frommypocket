@@ -1,36 +1,3 @@
----
-title: 
-layout: page
-modified: 2014-07-31T13:23:02.362000-04:00
-excerpt: 
----
-
-<!--
-{% include _scripts.html %}
--->
-
-<!--![x](/images/Einstein.jpg)
--->
-<!--
-<script type="text/javascript">
-var col = new String();
-var x=1;var y;
-
-function blink()
-{
- if(x%2) 
- {
-  col = "rgb(255,0,0)";
- }else{
-  col = "rgb(255,255,255)";
- }
-
- aF.style.color=col;x++;if(x>2){x=1};setTimeout("blink()",500);
-}
-</script>
--->
-
-
 <style>
 mark { 
     background-color: #D40000;
