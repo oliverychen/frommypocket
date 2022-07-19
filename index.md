@@ -211,7 +211,7 @@ h1 {
 
   <br>
 
-  <p style="text-align:center">So we develop <strong>algorithms</strong> that suports <strong>applications<strong> and <strong>Apps<strong> to address (1)-(3) on devices small enough <strong>from your pocket.</strong></p>
+  <p style="text-align:center">So we develop <strong>algorithms</strong> that suports <strong>analyses</strong> and <strong>Apps</strong> to address (1)-(3) on small devices <strong>from your pocket.</strong></p>
 
   <br>
   <p style="text-align:center">Finally, although no one achieves perfection, with hard work, creativity, and a little luck, we may get closer to it, one step at a time.</p>
