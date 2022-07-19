@@ -1,5 +1,0 @@
-library(devtools)
-install_github("oliverychen/network.predication")
-library(network.predication)
-help("loocv_pos")
-help("loocv_neg")
