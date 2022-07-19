@@ -1,3 +1,36 @@
+---
+title: 
+layout: page
+modified: 2014-07-31T13:23:02.362000-04:00
+excerpt: 
+---
+
+<!--
+{% include _scripts.html %}
+-->
+
+<!--![x](/images/Einstein.jpg)
+-->
+<!--
+<script type="text/javascript">
+var col = new String();
+var x=1;var y;
+
+function blink()
+{
+ if(x%2) 
+ {
+  col = "rgb(255,0,0)";
+ }else{
+  col = "rgb(255,255,255)";
+ }
+
+ aF.style.color=col;x++;if(x>2){x=1};setTimeout("blink()",500);
+}
+</script>
+-->
+
+
 <style>
 mark { 
     background-color: #D40000;
@@ -23,10 +56,16 @@ function blink()
 }
 </script>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-64829092-1', 'auto');
+  ga('send', 'pageview');
 
-
-
+</script>
 
 
 
@@ -52,7 +91,7 @@ html {
 }
 
 #section2 {
-  height: 400px;
+  height: 800px;
   background-color: white;
 }
 </style>
@@ -78,7 +117,7 @@ html {
       white-space: nowrap;
       animation: 
       typing 1s steps(20, end) forwards;
-      font-size: 10rem;
+      font-size: 8rem;
       width: 0;
     }
     @keyframes typing {
@@ -107,16 +146,28 @@ h1 {
 <h1> </h1>
 
 <div class="main" id="section1">
-  <h1 style="text-align:center;">
+  <h1>
 
   </h1>
 
-<div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+<div style="text-align:center">
+<div class="container">
   <div class="typed-out">
     From My Pocket:
   </div>
 </div>
-
+</div>
 
 </div>
 
@@ -127,10 +178,27 @@ h1 {
 
 <div class="main" id="section2">
 
-
-
-  <h2> </h2>
+  <h2>  </h2>
   
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
   <p style="text-align:center">We invent with three goals. </p>
 
   <br>
@@ -148,15 +216,17 @@ h1 {
   <br>
   <p style="text-align:center">Finally, although no one achieves perfection, with hard work, creativity, and a little luck, we may become closer to it, one step at a time.</p>
 
+  <!--
   <br>
-  <p style="text-align:center">Lovefrommypocket</p>
-
+  <p style="text-align:center">From my pocket</p>
+  -->
 
 </div>
 
 
 
 </body>
+
 </html>
 
 
