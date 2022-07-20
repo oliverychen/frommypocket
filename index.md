@@ -5,30 +5,6 @@ modified: 2014-07-31T13:23:02.362000-04:00
 excerpt: 
 ---
 
-<!--
-{% include _scripts.html %}
--->
-
-<!--![x](/images/Einstein.jpg)
--->
-<!--
-<script type="text/javascript">
-var col = new String();
-var x=1;var y;
-
-function blink()
-{
- if(x%2) 
- {
-  col = "rgb(255,0,0)";
- }else{
-  col = "rgb(255,255,255)";
- }
-
- aF.style.color=col;x++;if(x>2){x=1};setTimeout("blink()",500);
-}
-</script>
--->
 
 
 <style>
@@ -66,8 +42,6 @@ function blink()
   ga('send', 'pageview');
 
 </script>
-
-
 
 
 
@@ -119,9 +93,12 @@ html {
       background-size: cover;
       font-family: 'Trebuchet MS', sans-serif; 
     }
+
     .container{
       display: inline-block;
     }
+
+
     .typed-out{
       overflow: hidden;
       border-right: .15em white;
@@ -138,11 +115,50 @@ html {
       to { width: 100% }
     }
 
+
+
+  </style>
+
+
+
+  <style>
+
+
+    body{
+      min-height: 100%;
+      background: white;
+      background-size: cover;
+      font-family: 'Trebuchet MS', sans-serif; 
+    }
+
+    .container{
+      display: inline-block;
+    }
+
+
+.typed-out-2{
+      overflow: hidden;
+      white-space: nowrap;
+      animation: 
+      typing 0.01s steps(30, end) forwards;
+      animation-delay: 4s; 
+      blinkTextCursor 500ms;
+      font-size: 2rem;
+      width: 0;
+      
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+
   </style>
 
   </head>
 
-<body>
+ <body>
+
 
 
 
@@ -175,45 +191,93 @@ html {
 <div class="main" id="section2">
 
   <h2>  </h2>
-  
+
 
 
 <div style="text-align:center">
-<div class="container">
+<div class="typed-out-2"> 
+  we
+</div>
+</div>
 
-  <p style="text-align:center">we aim to: </p>
+<br>
+<br>
 
-  <br>
-
-  <p style="text-align:center">(1) identify disease status <strong>early</strong>.</p>
-
-  <p style="text-align:center">(2) estimate disease severity <strong>faithfully</strong>.</p>
-
-  <p style="text-align:center">(3) monitor disease changes <strong>longitudinally</strong>.</p>
-
-  <br>
-
-  <p style="text-align:center">So we create <strong>algorithms</strong>, <strong>analyses</strong>, and <strong>apps</strong>.</p>
-
- <p style="text-align:center">And we address (1)-(3) on small devices <strong>from the pocket.</strong></p>
+<div style="text-align:center">
+<div class="typed-out-2"> 
+  aim to: 
+</div>
+</div>
 
   <br>
-  <p style="text-align:center">One cannot achieve perfection. With diligence, imagination, and some luck, we may get closer to it.</p>
-
-  <!--
   <br>
-  <p style="text-align:center">From my pocket</p>
-  -->
+
+<div style="text-align:center">
+<div class="typed-out-2"> 
+
+  (1) identify disease status <strong>early</strong>.
+
+ <br>
+</div>
+</div>
+
+
+<div style="text-align:center">
+<div class="typed-out-2">
+
+  (2) estimate disease severity <strong>faithfully</strong>.
+
+</div>
+</div>
+
+
+
+<div style="text-align:center">
+<div class="typed-out-2">
+
+  (3) monitor disease changes <strong>longitudinally</strong>.
+
+</div>
+</div>
+
+  <br>
+  <br>
+
+<div style="text-align:center">
+<div class="typed-out-2">
+
+
+ So we create <strong>algorithms</strong>, <strong>analyses</strong>, and <strong>apps</strong>.
+
+</div>
+</div>
+
+
+<div style="text-align:center">
+<div class="typed-out-2">
+
+  And we address (1)-(3) on small devices <strong>from the pocket.</strong>
+
+</div>
+</div>
+=
+  <br>
+  <br>
+  <br>
+ 
+<div style="text-align:center">
+
+<div class="typed-out-2">
+
+  One cannot achieve perfection. With diligence, imagination, and some luck, we may get closer to it.
+
+</div>
+</div>
 
 
 
 </div>
 
-</div>
-
-</div>
-
-</body>
 
 </html>
 
