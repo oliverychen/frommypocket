@@ -251,11 +251,12 @@ html {
 </div>
 </div>
 
+<br>
 
 <div style="text-align:center">
 <div class="typed-out-2">
 
-  And we address (1)-(3) on small devices <strong>from the pocket.</strong>
+And exchange ideas with <strong>large</strong> medical machines and <strong>pocket</strong> digital devices.
 
 </div>
 </div>
