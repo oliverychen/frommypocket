@@ -223,7 +223,7 @@ span {
 
   <br>
 
-  <p style="text-align:center">So we develop <strong>algorithms</strong> that suport <strong>analyses</strong> and <strong>Apps</strong> to address (1)-(3) on small devices <strong>from your pocket.</strong></p>
+  <p style="text-align:center">So we develop <strong>algorithms</strong> that suport <strong>analyses</strong> and <strong>apps</strong> to address (1)-(3) on small devices <strong>from your pocket.</strong></p>
 
   <br>
   <p style="text-align:center">Finally, although no one achieves perfection, with hard work, creativity, and a little luck, we may get closer to it, one step at a time.</p>
