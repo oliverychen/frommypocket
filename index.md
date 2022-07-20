@@ -143,7 +143,7 @@ html {
       typing 0.01s steps(30, end) forwards;
       animation-delay: 4s; 
       blinkTextCursor 500ms;
-      font-size: 2rem;
+      font-size: 1.5rem;
       width: 0;
       
     }
@@ -260,7 +260,7 @@ html {
 
 </div>
 </div>
-=
+
   <br>
   <br>
   <br>
