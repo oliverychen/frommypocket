@@ -86,12 +86,12 @@ html {
 }
 
 #section1 {
-  height: 600px;
+  height: 400px;
   background-color: white;
 }
 
 #section2 {
-  height: 800px;
+  height: 700px;
   background-color: white;
 }
 </style>
@@ -126,14 +126,25 @@ html {
     }
   </style>
 
+
 <!--
 <style>
-h1 {
-  font-size: 8rem;
-}
-</style>
--->
 
+div {
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+  border: 2px dashed #f69c55;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+</style>
+ -->
 
   </head>
 <body>
@@ -149,6 +160,7 @@ h1 {
   <h1>
 
   </h1>
+
 
   <br>
   <br>
@@ -211,7 +223,7 @@ h1 {
 
   <br>
 
-  <p style="text-align:center">So we develop <strong>algorithms</strong> that suports <strong>analyses</strong> and <strong>Apps</strong> to address (1)-(3) on small devices <strong>from your pocket.</strong></p>
+  <p style="text-align:center">So we develop <strong>algorithms</strong> that suport <strong>analyses</strong> and <strong>Apps</strong> to address (1)-(3) on small devices <strong>from your pocket.</strong></p>
 
   <br>
   <p style="text-align:center">Finally, although no one achieves perfection, with hard work, creativity, and a little luck, we may get closer to it, one step at a time.</p>
