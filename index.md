@@ -79,14 +79,21 @@ function blink()
 
 
 <html>
+
+
+
 <head>
 <style>
+
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 #section1 {
-  height: 400px;
+
+  height: 700px;
+  line-height: 700px;
   background-color: white;
 }
 
@@ -102,8 +109,12 @@ html {
 
 <head>
 
+
 <style>
+
+
     body{
+      min-height: 100%;
       background: white;
       background-size: cover;
       font-family: 'Trebuchet MS', sans-serif; 
@@ -116,29 +127,21 @@ html {
       border-right: .15em white;
       white-space: nowrap;
       animation: 
-      typing 3s steps(20, end) forwards;
-      font-size: 8rem;
+      typing 2s steps(20, end) forwards;
+      animation-delay: 1s; 
+      blinkTextCursor 500ms;
+      font-size: 6rem;
       width: 0;
     }
     @keyframes typing {
       from { width: 0 }
       to { width: 100% }
     }
+
   </style>
 
-
-
-<style>
-
-p {
-  animation-delay: 5s;
-}
-
-
-</style>
-
-
   </head>
+
 <body>
 
 
@@ -153,19 +156,6 @@ p {
 
   </h1>
 
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
 
 <div style="text-align:center">
 <div class="container">
@@ -186,56 +176,42 @@ p {
 
   <h2>  </h2>
   
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
 
+
+<div style="text-align:center">
+<div class="container">
 
   <p style="text-align:center">we aim to: </p>
 
   <br>
 
-  <p style="text-align:center">(1) find diseases <strong>early</strong>.</p>
+  <p style="text-align:center">(1) identify disease status <strong>early</strong>.</p>
 
-  <p style="text-align:center">(2) estimate disease severity <strong>accurately</strong>.</p>
+  <p style="text-align:center">(2) estimate disease severity <strong>faithfully</strong>.</p>
 
   <p style="text-align:center">(3) monitor disease changes <strong>longitudinally</strong>.</p>
 
   <br>
 
-  <p style="text-align:center">So we create <strong>algorithms</strong>, <strong>analyses</strong>, and <strong>apps</strong> to address (1)-(3) on small devices <strong>from your pocket.</strong></p>
+  <p style="text-align:center">So we create <strong>algorithms</strong>, <strong>analyses</strong>, and <strong>apps</strong>.</p>
+
+ <p style="text-align:center">And we address (1)-(3) on small devices <strong>from the pocket.</strong></p>
 
   <br>
-  <p style="text-align:center">Although no one achieves perfection, with hard work, creativity, and a little luck, we may get closer to it, one step at a time.</p>
+  <p style="text-align:center">One cannot achieve perfection. With diligence, imagination, and some luck, we may get closer to it.</p>
 
   <!--
   <br>
   <p style="text-align:center">From my pocket</p>
   -->
 
+
+
 </div>
 
+</div>
 
+</div>
 
 </body>
 
