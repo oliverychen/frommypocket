@@ -91,7 +91,7 @@ html {
 }
 
 #section2 {
-  height: 700px;
+  height: 800px;
   background-color: white;
 }
 </style>
@@ -164,6 +164,8 @@ p {
   <br>
   <br>
   <br>
+  <br>
+  <br>
 
 <div style="text-align:center">
 <div class="container">
@@ -201,7 +203,12 @@ p {
   <br>
   <br>
   <br>
-
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
 
   <p style="text-align:center">we aim to: </p>
