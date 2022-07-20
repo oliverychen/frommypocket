@@ -52,7 +52,6 @@ function blink()
 
 
 
-<html>
 
 
 
@@ -279,7 +278,6 @@ html {
 </div>
 
 
-</html>
 
 
 
