@@ -70,6 +70,30 @@ function blink()
 
 
 
+<script type = "text/javascript">
+$(document).ready(function(){
+  //Take your div into one js variable
+  var div = $("#divToShowHide");
+  //Take the current position (vertical position from top) of your div in the variable
+  var pos = div.position();
+  //Now when scroll event trigger do following
+  $(window).scroll(function () {
+   var windowpos = $(window).scrollTop();
+   //Now if you scroll more than 100 pixels vertically change the class to AfterScroll
+   // I am taking 100px scroll, you can take whatever you need
+   if (windowpos >= (pos.top - 100)) {
+     div.addClass("AfterScroll");
+   }
+   //If scroll is less than 100px, remove the class AfterScroll so that your content will be hidden again 
+   else {
+     s.removeClass("AfterScroll");
+   }
+   //Note: If you want the content should be shown always once you scroll and do not want to hide it again when go to top agian, no need to write the else part
+ });
+});
+</script>
+
+
 
 
 
@@ -133,12 +157,47 @@ html {
       font-size: 6rem;
       width: 0;
     }
+
+    .typed-out-2{
+      overflow: hidden;
+      border-right: .15em white;
+      white-space: nowrap;
+      animation: 
+      animation-delay: 5s; 
+      font-size: 2rem;
+      width: 0;
+    }
     @keyframes typing {
       from { width: 0 }
       to { width: 100% }
     }
 
   </style>
+
+
+  <style>
+
+  .BeforeScroll
+{
+  height: 100px; /*Whatever you want*/
+  width: 100%; /*Whatever you want*/
+  .
+  .
+  display: none;
+}
+
+
+/*Use this class when you want your content to be shown after some scroll*/
+.AfterScroll
+{
+  height: 100px; /*Whatever you want*/
+  width: 100%; /*Whatever you want*/
+  .
+  .
+  display: block;
+}
+
+</style>
 
   </head>
 
@@ -181,7 +240,11 @@ html {
 <div style="text-align:center">
 <div class="container">
 
+
+<div id = "divToShowHide" class = "BeforeScroll">
+
   <p style="text-align:center">we aim to: </p>
+
 
   <br>
 
@@ -206,6 +269,7 @@ html {
   -->
 
 
+</div>
 
 </div>
 
