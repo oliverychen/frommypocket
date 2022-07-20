@@ -268,7 +268,7 @@ html {
 
 <div class="typed-out-2">
 
-  One cannot achieve perfection. With imagination and diligence, we may get a little closer.
+  One cannot achieve perfection; with imagination and diligence, we may get a little closer.
 
 </div>
 </div>
