@@ -116,7 +116,7 @@ html {
       border-right: .15em white;
       white-space: nowrap;
       animation: 
-      typing 1s steps(20, end) forwards;
+      typing 3s steps(20, end) forwards;
       font-size: 8rem;
       width: 0;
     }
@@ -127,24 +127,16 @@ html {
   </style>
 
 
-<!--
+
 <style>
 
-div {
-  height: 300px;
-  line-height: 300px;
-  text-align: center;
-  border: 2px dashed #f69c55;
+p {
+  animation-delay: 5s;
 }
 
-span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
 
 </style>
- -->
+
 
   </head>
 <body>
@@ -176,7 +168,7 @@ span {
 <div style="text-align:center">
 <div class="container">
   <div class="typed-out">
-    From My Pocket:
+    From My Pocket,
   </div>
 </div>
 </div>
@@ -211,22 +203,23 @@ span {
   <br>
 
 
-  <p style="text-align:center">We invent with three goals. </p>
+
+  <p style="text-align:center">we aim to: </p>
 
   <br>
 
-  <p style="text-align:center">(1) To find diseases <strong>early</strong>.</p>
+  <p style="text-align:center">(1) find diseases <strong>early</strong>.</p>
 
-  <p style="text-align:center">(2) To estimate disease severity <strong>accurately</strong>.</p>
+  <p style="text-align:center">(2) estimate disease severity <strong>accurately</strong>.</p>
 
-  <p style="text-align:center">(3) To monitor disease changes <strong>longitudinally</strong>.</p>
-
-  <br>
-
-  <p style="text-align:center">So we develop <strong>algorithms</strong> that suport <strong>analyses</strong> and <strong>apps</strong> to address (1)-(3) on small devices <strong>from your pocket.</strong></p>
+  <p style="text-align:center">(3) monitor disease changes <strong>longitudinally</strong>.</p>
 
   <br>
-  <p style="text-align:center">Finally, although no one achieves perfection, with hard work, creativity, and a little luck, we may get closer to it, one step at a time.</p>
+
+  <p style="text-align:center">So we create <strong>algorithms</strong>, <strong>analyses</strong>, and <strong>apps</strong> to address (1)-(3) on small devices <strong>from your pocket.</strong></p>
+
+  <br>
+  <p style="text-align:center">Although no one achieves perfection, with hard work, creativity, and a little luck, we may get closer to it, one step at a time.</p>
 
   <!--
   <br>
